@@ -1,0 +1,18 @@
+Identify which context blocks support the given answer.
+
+CONTEXT BLOCK MARKERS AVAILABLE
+{available_markers}
+
+CONTEXT
+---
+{context}
+---
+
+ANSWER
+{answer}
+
+Output a comma-separated list of the markers that directly support the answer,
+e.g. "S1, S3". Use only markers from the available list. If no block supports
+the answer, output NONE. Output nothing else.
+
+MARKERS

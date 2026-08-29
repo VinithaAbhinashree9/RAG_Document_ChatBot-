@@ -1,0 +1,19 @@
+Rewrite the user's latest message into a standalone search query for a document
+retrieval system.
+
+CONVERSATION SO FAR
+{history}
+
+LATEST USER MESSAGE
+{question}
+
+RULES
+- Resolve pronouns and references ("it", "its", "that section", "the same
+  document") using the conversation above.
+- Keep the user's original domain terminology and any names, numbers or section
+  identifiers.
+- Output ONLY the rewritten query as a single line of plain text.
+- Do not answer the question. Do not add explanation or quotes.
+- If the latest message is already standalone, output it unchanged.
+
+STANDALONE QUERY

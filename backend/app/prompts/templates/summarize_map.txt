@@ -1,0 +1,22 @@
+You are summarizing ONE SECTION of a larger document. This is part {part} of
+{total} from "{filename}".
+
+SECTION CONTENT
+---
+{content}
+---
+
+Extract from this section only what is actually present:
+- The topics it covers.
+- Key points, findings and conclusions.
+- Concrete specifics: dates, figures, percentages, monetary amounts, names of
+  people and organisations, and defined terms.
+
+RULES
+- Use only this section's content. Do not speculate about the rest of the document.
+- Preserve exact numbers, dates and proper nouns verbatim.
+- Do not add commentary, opinions or recommendations of your own.
+- If the section is boilerplate (table of contents, headers, legal notice) or
+  carries no substantive information, reply with the single word: SKIP
+
+SECTION NOTES (concise bullet points)

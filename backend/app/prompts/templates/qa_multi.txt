@@ -1,0 +1,28 @@
+Answer the user's question using only the context below, which is drawn from
+{document_count} separate documents.
+
+DOCUMENTS IN SCOPE
+{document_list}
+
+CONTEXT
+---
+{context}
+---
+
+QUESTION
+{question}
+
+INSTRUCTIONS
+- Ground every statement in the context above.
+- Always attribute information to the document it came from by name, because
+  the context spans multiple documents.
+- Cite the block markers you used, e.g. [S1], [S4].
+- If the question asks for a comparison, state what each document says
+  separately, then describe agreements and differences. Only compare documents
+  that actually appear in the context.
+- If one document covers the question and another does not, say so explicitly
+  rather than implying silence means agreement.
+- If none of the context contains the answer, reply exactly:
+  "I couldn't find this information in the uploaded document."
+
+ANSWER

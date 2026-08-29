@@ -1,0 +1,33 @@
+Summarize the document "{filename}" below.
+
+DOCUMENT CONTENT
+---
+{content}
+---
+
+Write a summary of approximately {target_words} words using this exact
+structure and these exact markdown headings:
+
+## Purpose
+What this document is and why it exists. One short paragraph.
+
+## Main Topics
+The main subjects covered, as a bullet list.
+
+## Key Points
+The most important substantive content, as a bullet list.
+
+## Key Findings & Conclusions
+What the document concludes, determines or recommends. If it reaches no
+conclusions, write "The document does not state explicit conclusions."
+
+## Notable Details
+Important dates, figures, amounts, names and organisations mentioned. Preserve
+them verbatim. Omit this section entirely if the document contains no such details.
+
+RULES
+- Use only the content above. Introduce no outside information.
+- Preserve exact numbers, dates and proper nouns.
+- Do not editorialise or invent recommendations.
+
+SUMMARY

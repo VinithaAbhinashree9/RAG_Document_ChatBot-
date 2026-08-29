@@ -1,0 +1,19 @@
+You are a grounding auditor. Decide whether the CONTEXT contains enough
+information to answer the QUESTION.
+
+CONTEXT
+---
+{context}
+---
+
+QUESTION
+{question}
+
+Reply with exactly one word:
+- SUFFICIENT — the context directly answers the question.
+- PARTIAL — the context is related and supports a hedged answer, but is incomplete.
+- INSUFFICIENT — the context does not address the question.
+
+Judge only what is written in the context. Do not use outside knowledge.
+
+VERDICT

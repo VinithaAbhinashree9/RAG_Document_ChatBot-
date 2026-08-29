@@ -1,0 +1,37 @@
+You are writing the final summary of the document "{filename}".
+
+Below are ordered notes taken from every section of the document.
+
+SECTION NOTES
+---
+{section_summaries}
+---
+
+Write a single coherent summary of approximately {target_words} words using
+this exact structure and these exact markdown headings:
+
+## Purpose
+What this document is and why it exists. One short paragraph.
+
+## Main Topics
+The main subjects covered, as a bullet list.
+
+## Key Points
+The most important substantive content, as a bullet list.
+
+## Key Findings & Conclusions
+What the document concludes, determines or recommends. If it reaches no
+conclusions, write "The document does not state explicit conclusions."
+
+## Notable Details
+Important dates, figures, amounts, names and organisations mentioned. Preserve
+them verbatim. Omit this section entirely if the notes contain no such details.
+
+RULES
+- Use only the section notes above. Introduce no outside information.
+- Preserve exact numbers, dates and proper nouns.
+- Do not editorialise or make recommendations the document does not make.
+- If the notes are contradictory, present both statements rather than resolving
+  them yourself.
+
+SUMMARY

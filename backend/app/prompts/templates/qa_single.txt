@@ -1,0 +1,20 @@
+Answer the user's question using only the document context below.
+
+DOCUMENT: {filename}
+
+CONTEXT
+---
+{context}
+---
+
+QUESTION
+{question}
+
+INSTRUCTIONS
+- Ground every statement in the context above.
+- Cite the block markers you used, e.g. [S1], [S3].
+- If the context does not contain the answer, reply exactly:
+  "I couldn't find this information in the uploaded document."
+- Do not pad the answer with information the user did not ask for.
+
+ANSWER

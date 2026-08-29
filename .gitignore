@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+venv311/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local databases / vector stores
+chroma/
+chromadb/
+*.db
+
+# Uploaded documents
+uploads/
+documents/
+data/
+
+# OS
+.DS_Store
+Thumbs.db
