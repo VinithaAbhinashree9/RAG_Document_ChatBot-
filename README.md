@@ -6,7 +6,7 @@ citations — the model can only cite chunks it was actually given.
 
 - **Backend:** FastAPI, ChromaDB (vector store), sentence-transformers
   (embeddings), Groq (LLM)
-- **Frontend:** React + TypeScript + Vite
+- **Frontend:** React + TypeScript + Vite.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e95595fe-59f3-4643-bb2e-796593c53f6f" />
 
