@@ -69,7 +69,7 @@ Create `backend/.env`:
 
 ```env
 GROQ_API_KEY=your_key_here
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-120b
 ```
 
 > Uploads and indexing work without a key; chat and summarization need it.
